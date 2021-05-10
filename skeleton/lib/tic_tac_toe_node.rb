@@ -11,7 +11,7 @@ class TicTacToeNode
 
   def losing_node?(evaluator)
     if self.board.over? 
-      if board.winner == evaluator && self.board.won?
+      if board.winner == evaluator 
         return false
       else
         return true
